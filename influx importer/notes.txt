@@ -1,0 +1,1 @@
+./csvtoinflux.exe --database temp --measurement price --timestamp-column snapped_at --timestamp-format '2006-01-02 15:04:05 GMT' ./xrp-aud-max.csv
