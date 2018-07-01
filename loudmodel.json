@@ -1,5 +1,5 @@
 {
-  "bucket_interval": "10d",
+  "bucket_interval": "1m",
   "default_datasource": "influx",
   "features": [
     {
@@ -10,10 +10,12 @@
       "name": "avg_xrp_price"
     }
   ],
-  "interval": "1d",
+  "interval": 60,
   "max_evals": 10,
-  "name": "avg_price_model",
+  "name": "avg_price-model",
   "offset": 30,
-  "span": 3,
+  "span": 5,
+  "max_threshold": 90,
+  "min_threshold": 50,
   "type": "timeseries"
 }

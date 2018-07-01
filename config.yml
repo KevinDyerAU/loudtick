@@ -1,0 +1,9 @@
+storage:
+  path: /var/lib/loudml
+server:
+  listen: localhost:8077
+datasources: 
+ - name: influx
+   type: influxdb
+   addr: host.docker.internal:8086
+   database: temp
